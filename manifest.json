@@ -6,7 +6,8 @@
   "action": {
     "title": "Summon Donkey",
     "icon": "icon.svg",
-    "default_popup": "index.html"
+    "popover": "index.html"
   }
 }
+
 
