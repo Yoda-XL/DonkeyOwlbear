@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "manifest_version": 1,
   "description": "Drops a donkey in the middle of the map",
-  "icon": "icon.svg",
+  "icon": "https://yoda-xl.github.io/DonkeyOwlbear/icon.svg",
   "action": {
     "title": "Summon Donkey",
-    "icon": "icon.svg",
-    "popover": "index.html",
+    "icon": "https://yoda-xl.github.io/DonkeyOwlbear/icon.svg",
+    "popover": "https://yoda-xl.github.io/DonkeyOwlbear/index.html",
     "width": 400,
     "height": 300
   }
