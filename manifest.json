@@ -3,11 +3,12 @@
   "name": "Donkey Dropper",
   "version": "1.0.0",
   "description": "Drops a donkey in the middle of the map",
-  "action": {
-    "title": "Summon Donkey",
-    "icon": "icon.svg",
-    "popover": "index.html"
-  }
+  "actions": [
+    {
+      "id": "summon-donkey",
+      "title": "Summon Donkey",
+      "icon": "icon.svg",
+      "popover": "index.html"
+    }
+  ]
 }
-
-
