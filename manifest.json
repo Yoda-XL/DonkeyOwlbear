@@ -1,14 +1,14 @@
 {
-  "manifest_version": 1,
   "name": "Donkey Dropper",
   "version": "1.0.0",
+  "manifest_version": 1,
   "description": "Drops a donkey in the middle of the map",
-  "actions": [
-    {
-      "id": "summon-donkey",
-      "title": "Summon Donkey",
-      "icon": "icon.svg",
-      "popover": "index.html"
-    }
-  ]
+  "icon": "icon.svg",
+  "action": {
+    "title": "Summon Donkey",
+    "icon": "icon.svg",
+    "popover": "index.html",
+    "width": 400,
+    "height": 300
+  }
 }
