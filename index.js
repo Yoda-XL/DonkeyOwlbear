@@ -2,7 +2,7 @@ import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk/+esm";
 
 // Donkey image URL (must be HTTPS)
 const DONKEY_IMAGE_URL =
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn_EZcfpmITihxISoo4YomHL5XXP5G1J-GwqF0zURsaUAkHjwZPpkcx8thKIh5YofJC21rz1YAoZ5y37R9PsJq2GoAUPqRHxGy4_HaLX8&s=10";
+  "https://spana.org/au/wp-content/uploads/sites/4/2023/12/Cute-donkey-Nouakchott-Mauritania-1024x685.jpg";
 
 OBR.onReady(async () => {
   try {
@@ -35,3 +35,4 @@ OBR.onReady(async () => {
     OBR.notification.show("❌ Failed to spawn donkey.");
   }
 });
+
