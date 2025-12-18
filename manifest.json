@@ -1,14 +1,12 @@
 {
-  "name": "Donkey Dropper",
+  "name": "Donkey Tool",
   "version": "1.0.0",
   "manifest_version": 1,
-  "description": "Drops a donkey in the middle of the map",
-  "icon": "https://yoda-xl.github.io/DonkeyOwlbear/icon.svg",
-  "action": {
+  "description": "Spawns a donkey directly on the map",
+  "tool": {
+    "id": "donkey-tool",
     "title": "Summon Donkey",
     "icon": "https://yoda-xl.github.io/DonkeyOwlbear/icon.svg",
-    "popover": "https://yoda-xl.github.io/DonkeyOwlbear/index.html",
-    "width": 400,
-    "height": 300
+    "script": "index.js"
   }
 }
